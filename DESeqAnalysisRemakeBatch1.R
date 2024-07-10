@@ -5,7 +5,6 @@ install.packages("ggpubr")
 install.packages("stringr")
 if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
-
 BiocManager::install("DESeq2")
 
 library(ggplot2)
