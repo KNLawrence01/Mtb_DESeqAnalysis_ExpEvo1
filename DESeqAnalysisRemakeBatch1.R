@@ -1,3 +1,13 @@
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("tidyverse")
+install.packages("ggpubr")
+install.packages("stringr")
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+BiocManager::install("DESeq2")
+
 library(ggplot2)
 library(dplyr)
 library(tidyverse)
